@@ -1,0 +1,9 @@
+
+Una de las ventajas que encontramos al usar la API .nio de java, primeramente es el tipo
+de ruta objetual de la clase Path,este tiene metodos como  localizar, examinar y manipular los archivos
+directamente.También encontramos la clase FileChannel con la ventaja de que puede escribir
+y modificar datos al mismo tiempo que se van leyendo, dandonos mas eficiciencia especialmente 
+en archivos de gran tamaño, a su vez ya tiene metodos implementados como readAllines que
+facilita la lectura completa, aunque java.io se sienta menos complejo en términos de programación, 
+java.nio por otra parte es mas exacto y mas eficiente, no obstante el archivo debe estar organizado
+y preparado para poder ser utilizado por java.nio
