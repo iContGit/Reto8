@@ -21,7 +21,6 @@ public class PersistenciaNio {
             String[] listaLineasArr = new String[lineasArchivo.size()];
             listaLineasArr = lineasArchivo.toArray(listaLineasArr);
             int posicionInicial = ((listaLineasArr[1].getBytes().length * 10 - 13));
-            int contadorBytes;
             do {
                 FileChannel canal = FileChannel.open(miRuta, READ);
                 canal.position(posicionInicial);
